@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+margin: 0;
+background-color: rgb(206, 201, 201);
+}
+.container{
+    background-color: rgb(206, 36, 17);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+.currency{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.currency select{
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+.currency input{
+    font-size: 25px;
+    border: none;
+    background: transparent;/*arkasının görülmemesini saglar*/
+    color: white;
+    text-align: right;
+
+}
+.currency span{
+    font-size: 25px;
+    color: white;
+}
+input:focus,select:focus{
+    outline: none;
+}
+.degisiklik{
+    font-size: 20px;
+}
